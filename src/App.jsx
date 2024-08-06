@@ -12,6 +12,7 @@ import person3 from './images/Picture2.png'
 import {ReactComponent as PlayerIcon} from './images/player-icon.svg'
 import {ReactComponent as Dote } from './images/circle-f.svg'
 import {ReactComponent as VectorWindow } from './images/Vector-window.svg'
+import radar from './images/Right.png'
 import  icons  from './images/Icons.png'
 // import { useRef } from 'react';
 // import { useState } from 'react';
@@ -85,6 +86,15 @@ function App() {
             </div>
             
           </div>
+        </section>
+        <section className='px-4 my-12'>
+          <div>
+            <p className='text-[40px] font-bold'>Get all the tools your team needs</p>
+            <p className='text-lg my-6'>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+            <div className='flex items-center gap-4 my-3 text-blue-600 cursor-pointer'><a href="#" className='font-medium text-base'>Check the tools</a><Vector className='fill-blue-600'/></div>
+            <div className='mx-auto '><img src={radar} alt="" /></div>
+          </div>
+          
         </section>
       </div>
     </div>
