@@ -6,10 +6,18 @@ import shells from './images/2.svg'
 import waves from './images/3.svg'
 import artvenue from './images/4.svg'
 import video from './images/Video.png'
+import {ReactComponent as PlayerIcon} from './images/player-icon.svg'
 import {ReactComponent as Dote } from './images/circle-f.svg'
 import {ReactComponent as VectorWindow } from './images/Vector-window.svg'
+import { useRef } from 'react';
+// import { useState } from 'react';
 
 function App() {
+  
+  // const myRef = useRef()
+
+  // console.log(myRef.current.offSetHeight)
+
   return (
     <div className="App w-full">
       <div className=' font-roboto '>
@@ -49,8 +57,11 @@ function App() {
                 </div>
                 
               </div>
-              <div >
-                <img className='w-full rounded-b-[18px]' src={video}/>
+              <div>
+                <div className='relative' id='foo' >
+                  <img className='w-full rounded-b-[18px]' src={video}/>
+                  <PlayerIcon className='absolute h-fit inset-1/2 -translate-x-1/2 -translate-y-1/2' id='videoPlayer'/>
+                </div>
               </div>
             </div>
           </div>
