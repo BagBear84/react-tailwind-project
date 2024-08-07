@@ -152,6 +152,19 @@ function App() {
             <button className='bg-blue-600 text-white flex w-4/5 justify-center mx-auto items-center p-3 rounded-lg'><p className=' px-6 font-bold text-2xl'>Sing Up Free </p><Vector className='fill-white '/></button>
           </div>
         </section>
+        <footer className='px-4 my-6'>
+          <p className='font-medium text-lg'>magnifico</p>
+          <p className='my-4'>@ 2023. All rights reserved.</p>
+          <div className='my-3'>
+            <div className='w-full flex justify-between'>
+              <button>Terms</button>
+              <button>Privacy</button>
+              <button>Support</button>
+              <button>About</button>
+              <button>Contact</button>
+            </div>
+          </div>
+        </footer>
 
       </div>
     </div>
