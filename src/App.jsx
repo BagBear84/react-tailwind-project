@@ -6,6 +6,7 @@ import shells from './images/2.svg'
 import waves from './images/3.svg'
 import artvenue from './images/4.svg'
 import video from './images/Video.png'
+import video2 from './images/Video2.png'
 import person1 from './images/Picture.png'
 import person2 from './images/Picture1.png'
 import person3 from './images/Picture2.png'
@@ -107,6 +108,45 @@ function App() {
             <div className='flex items-center gap-4 my-3 cursor-pointer'><a href="#" className='font-medium text-base'>Check the tools</a><Vector className='fill-white'/></div>
           </div>
         </section>
+        <section className='px-4 my-12'>
+          <div>
+            <p className='font-bold text-[40px]'>Improve workflow</p>
+            <div className='flex w-full justify-center rounded-lg my-8'>
+              <button className='py-4 bg-slate-100 border-2 border-gray-300 w-full rounded-l-lg'>Research</button>
+              <button className='py-4  border-2 border-x-0 border-gray-300 w-full'>Plan</button>
+              <button className='py-4  border-2 border-gray-300 w-full rounded-r-lg'>Design</button>
+            </div>
+            <p className='mb-6 text-base'>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+            <div className='flex items-center gap-4 my-3 text-blue-600'><a href="#" className='font-medium text-base'>Check the tools</a><Vector className='fill-blue-600'/></div>
+          </div>
+          <div>
+            <div className='mt-8 border-2 border-gray-100 rounded-[20px]'>
+              <div className='flex justify-between items-center px-4 py-2'>
+                <div className='flex space-x-[5px]'>
+                  <Dote  className='fill-rose-600'/>
+                  <Dote  className='fill-amber-400'/>
+                  <Dote  className='fill-green-500'/>
+                </div>
+                <div className='bg-slate-100 text-gray-400 text-xs w-1/2 py-1 rounded-[5px]'>
+                  <p className='w-fit mx-auto'>app.magnifi.co</p>
+                </div>
+                <div className='flex gap-6'>
+                  <VectorWindow className='fill-gray-400'/>
+                  <VectorWindow className='-scale-x-100 fill-gray-600'/>
+                </div>
+                
+              </div>
+              <div>
+                <div className='relative' id='foo' >
+                  <img className='w-full rounded-b-[18px]' src={video2}/>
+                  <PlayerIcon className='absolute h-fit inset-1/2 -translate-x-1/2 -translate-y-1/2' id='videoPlayer'/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+
       </div>
     </div>
   );
