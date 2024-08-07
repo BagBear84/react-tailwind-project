@@ -145,7 +145,13 @@ function App() {
             </div>
           </div>
         </section>
-        
+        <section>
+          <div className='bg-gradient-to-br from-[#312E81] via-[#1E3A8A] to-[#701A75] text-white px-6 py-12 text-center'>
+            <p className='text-[40px] '>Join the community today</p>
+            <p className=' text-base my-6'>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+            <button className='bg-blue-600 text-white flex w-4/5 justify-center mx-auto items-center p-3 rounded-lg'><p className=' px-6 font-bold text-2xl'>Sing Up Free </p><Vector className='fill-white '/></button>
+          </div>
+        </section>
 
       </div>
     </div>
