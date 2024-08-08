@@ -31,7 +31,7 @@ function App() {
   // console.log(myRef.current.offSetHeight)
 
   return (
-    <div className="App w-full">
+    <div className="App ">
       <div className=' font-roboto text-gray-600'>
         <header className='px-4 flex items-center justify-between border border-gray-200 text-gray-900'>
           <p className='py-4 font-bold text-[32px]'>magnifico</p>
@@ -49,12 +49,12 @@ function App() {
           </div>
         </header>
         <div className='max-w-[640px] lg:max-w-none mx-auto'>
-          <section className='px-4 my-12 lg:p-20 lg:m-0 lg:grid lg:grid-cols-2 lg:gap-20 lg:border-b lg:border-gray-200'>
-            <div className=' mx-auto  space-y-6 '>
-              <p className='text-costom1 font-bold lg:font-extrabold lg:text-7xl text-gray-900'>Teach students worldwide</p>
+          <section className='px-4 mt-12 lg:p-20 lg:m-0 lg:grid lg:grid-cols-2 lg:gap-20 lg:border-b lg:border-gray-200'>
+            <div className=' mx-auto  space-y-6 text-gray-900'>
+              <p className='text-costom1 font-bold lg:font-extrabold lg:text-7xl '>Teach students worldwide</p>
               <p className='text-base lg:text-lg font'>Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis ultricies.</p>
               <div className='grid lg:flex grid-cols-2 lg:justify-normal gap-2 justify-center text-nowrap'>
-                <input className='rounded-lg border lg:hidden px-4 text-[16px]' type="text" placeholder='Enter work email' />
+                <input className='rounded-lg border lg:hidden px-4 text-[16px] placeholder-gray-600' type="text" placeholder='Enter work email' />
                 <div className='rounded-lg border px-4 py-3 text-[16px] items-center hidden gap-2 lg:flex lg:w-full'><Envelope /> <input className='w-full py-0 rounded-lg focus:outline-none' type="text" placeholder='Enter work email' /></div>
                 <button className='bg-blue-600 text-white flex items-center p-3 rounded-lg'><p className='px-4'>Sing Up Free </p><Vector className='fill-white'/></button>
               </div>
@@ -92,29 +92,29 @@ function App() {
               </div>
             </div>
           </section>
-          <section className='px-4 my-12 lg:grid lg:grid-cols-2 lg:p-20 lg:m-0 lg:gap-20'>
-            <div className='lg:order-last'>
-              <p className='font-bold text-costom1 lg:text-costom2 lg:font-extrabold text-gray-900'>Enjoy your time working</p>
+          <section className='px-4 my-24 lg:items-center lg:grid lg:grid-cols-2 lg:p-20 lg:m-0 lg:gap-20'>
+            <div className='lg:order-last text-gray-900'>
+              <p className='font-bold text-costom1 lg:text-costom2 lg:font-extrabold '>Enjoy your time working</p>
               <p className='my-6 text-base lg:text-lg'>Etiam condimentum duis molestie malesuada volutpat pellentesque sed. Ornare suspendisse ut ac neque lobortis sed tincidunt. Mi tempus quis massa tellus imperdiet aenean nulla id.</p>
               <div className='flex items-center gap-4 my-3 text-blue-600'><a href="#" className='font-medium text-base'>See how it helped others</a><Vector className='fill-blue-600'/></div>
             </div>
             <div className='mt-8 '>
-              <div className='flex justify-between gap-2 h-64 lg:h-[420px] max-w-[510px] mx-auto lg:ml-auto relative'>
-                <img src={person1} className='mt-auto lg:hidden' alt="" />
-                <img src={person2} className='mb-auto lg:hidden' alt="" />
-                <img src={person3} className='my-auto lg:hidden' alt="" />
+              <div className='flex justify-center gap-1 xs:gap-2 lg:gap-4 h-64 lg:h-[420px] max-w-[400px] lg:max-w-[510px] mx-auto lg:mx-0 lg:ml-auto relative'>
+                <img src={person1} className='mt-auto w-1/3 xs:w-auto lg:hidden' alt="" />
+                <img src={person2} className='mb-auto w-1/3 xs:w-auto lg:hidden' alt="" />
+                <img src={person3} className='my-auto w-1/3 xs:w-auto lg:hidden' alt="" />
                 <img src={personD} className='lg:mt-auto w-1/3 hidden lg:block' alt="" />
                 <img src={person1D} className='lg:mb-auto w-1/3 hidden lg:block' alt="" />
                 <img src={person2D} className='lg:my-auto w-1/3 hidden lg:block' alt="" />
-                <img src={icons} className='w-44 h-44 absolute -z-10 -translate-y-1/2 -left-4 lg:-left-12 top-1/2' alt="" />
+                <img src={icons} className='w-44 h-44 absolute -z-10 -translate-y-1/2 -left-4 lg:-left-16 top-1/2' alt="" />
               </div>
               
             </div>
           </section>
-          <section className='px-4 my-12 lg:p-20 lg:m-0 lg:mb-20'>
+          <section className='px-4 mb-12 lg:p-20 lg:m-0 lg:mb-20'>
             <div className='lg:grid lg:grid-cols-5'>
-              <div className='lg:col-span-3'>
-                <p className='text-costom1 lg:text-costom2 lg:font-extrabold font-bold text-gray-900'>Get all the tools your team needs</p>
+              <div className='lg:col-span-3 text-gray-900'>
+                <p className='text-costom1 lg:text-costom2 lg:font-extrabold font-bold '>Get all the tools your team needs</p>
                 <p className='text-lg my-6'>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
                 <div className='flex items-center gap-4 my-3 text-blue-600 cursor-pointer'><a href="#" className='font-medium text-base'>Check the tools</a><Vector className='fill-blue-600'/></div>
               </div>
@@ -128,9 +128,9 @@ function App() {
               <img src={sectionMobile} className='w-full lg:hidden sm:rounded-3xl opacity-25' alt="" />
               <img src={containerDesktop} className='w-full hidden lg:block opacity-25 rounded-3xl' alt="" />
               <div className='flex flex-col justify-center sm:gap-18 gap-6 top-10 bottom-10 px-6 py-12 text-white absolute lg:w-1/2 lg:right-20'>
-                <p className='text-costom1 xl:text-costom2 sm:font-extrabold '>Problems come and get solved with ease</p>
+                <p className='xs:text-costom1 text-2xl xl:text-costom2 sm:font-extrabold font-bold'>Problems come and get solved with ease</p>
                 <p className=' text-base'>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
-                <div className='flex items-center gap-4 my-3 cursor-pointer'><a href="#" className='font-medium text-base'>Check the tools</a><Vector className='fill-white'/></div>
+                <div className='flex items-center gap-4 my-3 cursor-pointer'><a href="#" className='font-medium text-base'>Improve workflow</a><Vector className='fill-white'/></div>
               </div>
             </div>
             
@@ -138,7 +138,7 @@ function App() {
           <section className='px-4 my-12 lg:p-20 lg:m-0 lg:my-20 lg:grid lg:grid-cols-2 lg:gap-20'>
             <div>
               <p className='font-bold text-costom1 lg:text-costom2 lg:font-extrabold text-gray-900'>Improve workflow</p>
-              <div className='flex w-full justify-center rounded-lg my-8'>
+              <div className='flex w-full font-medium justify-center rounded-lg my-8 text-gray-900'>
                 <button className='py-4 bg-slate-100 border-2 border-gray-300 w-full rounded-l-lg'>Research</button>
                 <button className='py-4  border-2 border-x-0 border-gray-300 w-full'>Plan</button>
                 <button className='py-4  border-2 border-gray-300 w-full rounded-r-lg'>Design</button>
@@ -176,7 +176,7 @@ function App() {
             <div className='bg-gradient-to-r from-[#1E40AF] via-[#1E3A8A] to-[#701A75] text-white px-6 py-12 lg:p-20 text-center sm:rounded-3xl sm:mx-4 lg:mx-20'>
               <p className='text-costom1 lg:text-costom2 lg:font-extrabold'>Join the community today</p>
               <p className=' text-base my-6'>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
-              <button className='bg-blue-600 text-white flex w-4/5 lg:w-1/4 justify-center mx-auto items-center p-3 rounded-lg'><p className=' px-6 font-bold text-2xl'>Sing Up Free </p><Vector className='fill-white '/></button>
+              <button className='bg-blue-600 lg:min-w-64 text-white flex w-4/5 lg:w-1/4 justify-center px-6 mx-auto items-center p-3 rounded-lg'><p className=' px-6 font-bold text-2xl'>Sing Up Free </p><Vector className='fill-white '/></button>
             </div>
           </section>
         </div>
@@ -187,7 +187,7 @@ function App() {
               <p className='my-4 text-gray-600'>@ 2023. All rights reserved.</p>
             </div>
             <div className='my-3 lg:col-span-2 text-gray-600'>
-              <div className='w-full flex justify-between'>
+              <div className='w-full flex justify-between py-3'>
                 <button>Terms</button>
                 <button>Privacy</button>
                 <button>Support</button>
