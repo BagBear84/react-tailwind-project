@@ -51,7 +51,10 @@ function App() {
 
           <div className='hidden lg:flex items-center gap-4'>
             <button className='text-blue-600 px-2 py-3'>log in</button>
-            <button className='bg-blue-600 text-white flex items-center text-base font-medium p-3 px-7 rounded-lg'><p className='pr-4 3xl:text-3xl'>Sing Up Free </p><Vector className='fill-white w-4 3xl:w-6'/></button>
+            <button className='bg-blue-600 text-white flex items-center text-base font-medium p-3 px-7 rounded-lg'>
+              <p className='pr-4 3xl:text-3xl'>Sing Up Free </p>
+              <Vector className='fill-white w-4 3xl:w-6'/>
+            </button>
           </div>
 
         </header>
@@ -67,9 +70,14 @@ function App() {
               <div className='grid lg:flex grid-cols-2 lg:justify-normal gap-2 justify-center text-nowrap'>
                 <input className='rounded-lg border lg:hidden px-4 text-[16px] placeholder-gray-600' type="text" placeholder='Enter work email' />
 
-                <div className='rounded-lg border px-4 py-3 text-[16px] 3xl:text-3xl items-center hidden gap-2 lg:flex lg:w-full'><Envelope className='3xl:w-10 w-6' /> <input className='w-full placeholder-gray-600 py-0 rounded-lg focus:outline-none' type="text" placeholder='Enter work email' /></div>
+                <div className='rounded-lg border px-4 py-3 text-[16px] 3xl:text-3xl items-center hidden gap-2 lg:flex lg:w-full'>
+                  <Envelope className='3xl:w-10 w-6' /> 
+                  <input className='w-full placeholder-gray-600 py-0 rounded-lg focus:outline-none' type="text" placeholder='Enter work email' />
+                </div>
                 
-                <button className='bg-blue-600 text-white flex items-center p-3 rounded-lg'><p className='px-4'>Sing Up Free </p><Vector className='fill-white w-4 3xl:w-6'/></button>
+                <button className='bg-blue-600 text-white flex items-center p-3 rounded-lg'>
+                  <p className='px-4'>Sing Up Free </p><Vector className='fill-white w-4 3xl:w-6'/>
+                </button>
               </div>
 
               <div className='grid grid-cols-2 xl:flex xl:justify-between gap-y-4 xl:gap-y-0 text-gray-400 bg-gray-100 p-2 lg:p-4 rounded-lg'>
@@ -126,7 +134,10 @@ function App() {
               <p className='font-bold text-costom1 xl:text-costom2 3xl:text-[80px] lg:font-extrabold '>Enjoy your time working</p>
               <p className='my-6 text-base lg:text-lg 3xl:text-3xl'>Etiam condimentum duis molestie malesuada volutpat pellentesque sed. Ornare suspendisse ut ac neque lobortis sed tincidunt. Mi tempus quis massa tellus imperdiet aenean nulla id.</p>
               
-              <div className='flex items-center gap-4 my-3 text-blue-600'><a href="#" className='font-medium text-base 3xl:text-3xl'>See how it helped others</a><Vector className='fill-blue-600 w-4 3xl:w-6'/></div>
+              <div className='flex items-center gap-4 my-3 text-blue-600'>
+                <a href="#" className='font-medium text-base 3xl:text-3xl'>See how it helped others</a>
+                <Vector className='fill-blue-600 w-4 3xl:w-6'/>
+              </div>
 
             </div>
             
@@ -154,7 +165,12 @@ function App() {
               <div className='lg:col-span-3 text-gray-900'>
                 <p className='text-costom1 xl:text-costom2 lg:font-extrabold font-bold 3xl:text-[80px]'>Get all the tools your team needs</p>
                 <p className='text-lg my-6 3xl:text-3xl'>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
-                <div className='flex items-center gap-4 my-3 text-blue-600 cursor-pointer'><a href="#" className='font-medium text-base 3xl:text-3xl'>Check the tools</a><Vector className='fill-blue-600 w-4 3xl:w-6'/></div>
+                
+                <div className='flex items-center gap-4 my-3 text-blue-600 cursor-pointer'>
+                  <a href="#" className='font-medium text-base 3xl:text-3xl'>Check the tools</a>
+                  <Vector className='fill-blue-600 w-4 3xl:w-6'/>
+                </div>
+
               </div>
               
               <div className='mx-auto w-fit 3xl:w-auto col-span-2'><img src={radar} className='3xl:w-[500px]' alt="" /></div>
@@ -199,7 +215,10 @@ function App() {
 
               <p className='mb-6 text-base 3xl:text-3xl'>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
               
-              <div className='flex items-center gap-4 my-3 text-blue-600'><a href="#" className='font-medium text-base 3xl:text-3xl'>Check the tools</a><Vector className='fill-blue-600 w-4 3xl:w-6'/></div>
+              <div className='flex items-center gap-4 my-3 text-blue-600'>
+                <a href="#" className='font-medium text-base 3xl:text-3xl'>Check the tools</a>
+                <Vector className='fill-blue-600 w-4 3xl:w-6'/>
+              </div>
 
             </div>
             
