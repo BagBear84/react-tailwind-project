@@ -6,7 +6,9 @@ import shells from './images/2.svg'
 import waves from './images/3.svg'
 import artvenue from './images/4.svg'
 import video from './images/Video.png'
+import videopc from './images/VideoPc.png'
 import video2 from './images/Video2.png'
+import video2pc from './images/Video2Pc.png'
 import person1 from './images/Picture.png'
 import person2 from './images/Picture1.png'
 import person3 from './images/Picture2.png'
@@ -114,7 +116,8 @@ function App() {
                 <div>
                   
                   <div className='relative' id='foo' >
-                    <img className='w-full rounded-b-[18px]' src={video}/>
+                    <img className='w-full lg:hidden rounded-b-[18px]' src={video}/>
+                    <img className='w-full hidden lg:block rounded-b-[18px]' src={videopc}/>
                     <PlayerIcon className='absolute h-fit inset-1/2 -translate-x-1/2 -translate-y-1/2' id='videoPlayer'/>
                   </div>
 
@@ -248,7 +251,8 @@ function App() {
                 <div>
 
                   <div className='relative' id='foo' >
-                    <img className='w-full rounded-b-[18px]' src={video2}/>
+                    <img className='w-full lg:hidden rounded-b-[18px]' src={video2}/>
+                    <img className='w-full hidden lg:block rounded-b-[18px]' src={video2pc}/>
                     <PlayerIcon className='absolute h-fit inset-1/2 -translate-x-1/2 -translate-y-1/2' id='videoPlayer'/>
                   </div>
 
